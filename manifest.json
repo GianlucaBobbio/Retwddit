@@ -1,6 +1,6 @@
 {
 "name":"Retwddit",
-"description":"Plugin to copy tweets with format for Reddit",
+"description":"A button for Twitter to quickly copy in the correct format for Reddit",
 "version":"1",
 "manifest_version":2,
 "icons": { "16": "icon16.png",
