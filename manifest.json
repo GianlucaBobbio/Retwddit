@@ -9,7 +9,7 @@
 "content_scripts": [
     {
       "matches": ["http://twitter.com/*","https://twitter.com/*"],
-      "js": ["retwddit.js"],
+      "js": ["jquery-2.1.4.min.js","retwddit.js"],
       "css": ["retwddit.css"]
     }
   ]
