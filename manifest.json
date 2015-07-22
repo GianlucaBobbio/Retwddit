@@ -1,7 +1,7 @@
 {
 "name":"Retwddit",
 "description":"A button for Twitter to quickly copy in the correct format for Reddit",
-"version":"1",
+"version":"2",
 "manifest_version":2,
 "icons": { "16": "icon16.png",
            "48": "icon48.png",

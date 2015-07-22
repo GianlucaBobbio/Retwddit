@@ -5,13 +5,13 @@ if (document.title.indexOf("Twitter") != -1) {
 
 function main() {
     var index;
-    var tweets = document.getElementById("stream-items-id").getElementsByClassName("stream-item");
+    var tweets = $(".tweet");
     for (index = 0; index < tweets.length; ++index) {
         var tweet = tweets[index];
         addRedditButton(tweet);
     }
 
-    $("#stream-items-id").on("DOMNodeInserted", ".tweet.original-tweet.js-stream-tweet", addDinamicallyRedditButton);
+    $(document).on("DOMNodeInserted", ".tweet", addDinamicallyRedditButton);
 }
 
 function addDinamicallyRedditButton() {
