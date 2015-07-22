@@ -11,10 +11,10 @@ function main() {
         addRedditButton(tweet);
     }
 
-    $(document).on("DOMNodeInserted", ".tweet", addDinamicallyRedditButton);
+    $(document).on("DOMNodeInserted", ".tweet", addDynamicallyRedditButton);
 }
 
-function addDinamicallyRedditButton() {
+function addDynamicallyRedditButton() {
     var tweet = $(this).get(0);
     addRedditButton(tweet);
 }
